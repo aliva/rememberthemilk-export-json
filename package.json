@@ -1,0 +1,20 @@
+{
+  "name": "rememberthemilk-export",
+  "version": "0.0.1",
+  "description": "export task into a json file",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aliva/rememberthemilk-export.git"
+  },
+  "author": "Ali Vakilzade <ali@vakilzade.ir>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/aliva/rememberthemilk-export/issues"
+  }
+}

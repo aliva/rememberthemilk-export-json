@@ -1,0 +1,3 @@
+```sh
+node index.js
+```
