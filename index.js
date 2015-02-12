@@ -14,7 +14,7 @@ rtm.get('rtm.auth.getFrob', function(resp){
 
     console.log('Please visit the following URL in your browser to authenticate:\n');
     console.log(authUrl, '\n');
-    console.log('After authenticating, press any key to resume...');
+    console.log('After authenticating, press enter to resume...');
 
     process.stdin.resume();
 
@@ -43,9 +43,9 @@ rtm.get('rtm.auth.getFrob', function(resp){
                     }
                 }
 
+                tasks.splice(0, 1);
                 fs.writeFileSync("export.json", JSON.stringify(tasks));
-
-                console.log("export.js");
+                console.log("export.js created");
                 process.exit();
             });
         });
